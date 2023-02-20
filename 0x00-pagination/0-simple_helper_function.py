@@ -15,4 +15,5 @@ def index_range(page: int, page_size: int) -> Tuple[int, int]:
     Returns:
         Tuple[int, int]: _Current items, The end of items_
     """
-    return ((page_size * (page - 1)), page_size * page)
+    if page and page_size:
+      return ((page_size * (page - 1)), page_size * page)
