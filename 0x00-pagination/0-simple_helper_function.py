@@ -4,6 +4,7 @@ from typing import Tuple
 fuction file
 '''
 
+
 def index_range(page: int, page_size: int) -> Tuple[int, int]:
     """_summary_
 
